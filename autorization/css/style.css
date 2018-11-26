@@ -1,0 +1,174 @@
+html {
+    background: #E5E5E5;
+ }
+
+/* Верхняя полоса */
+.header-bg {
+    background: rgb(45, 6, 73);
+    height: 30px;
+}
+/* Подпишись */
+.header1 {
+    position: absolute;
+    right: 273px;
+    top: 13px;
+    color: white;
+}
+/* twitter */
+.twitter {
+    position: absolute;
+    right: 240.25px;
+    top: 6px;
+}
+/* youtube */
+.yt {
+    position: absolute;
+    right: 209.75px;
+    top: 6px;
+}
+/* facebook */
+.f {
+    position: absolute;
+    right: 172px;
+    top: 6px;
+}
+/* serdce */
+.heart {
+    position: absolute;
+    right: 135px;
+    top: 6px;
+  
+}
+/* Белая полоса в шапке */
+.headerwhite {
+    background: rgb(255, 255, 255);
+    padding: 13px;
+}
+/* Основной контент */
+
+
+/* блок для позицирования sign */
+/* .cont {
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.sign {
+    width: 602px;
+    height: 558px;
+    background: white;
+    position: absolute;
+    left: 600px;
+    right: 280px;
+    top: 148px;
+    bottom: 61px;
+   
+}
+ */
+.conteiner {
+    width: 80%;
+    height: 558px;
+    max-width: 602px;
+    margin: 148px auto;
+    padding: 5px;
+    background:white;
+    position: relative;
+}
+/* Надпись Вход */
+.vhod {
+    position: absolute;
+    left: 270px;
+    top: 30px;
+    right: 250px;
+    bottom: 539px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    width: 59px;
+   color: #4c4c4c
+}
+/* ОФОРМЛЕНИЕ ПОЛЕЙ ВВОДА */
+/* mail */
+input[type="text"] {
+    width: 263px;
+    height: 0px auto;
+    color: #A4A6A9;
+    border: 0;
+    font-size: 19px;
+    
+}
+/* первое поле ввода*/
+
+.mail {
+    position: absolute;
+    left: 180px;
+    top: 256px;
+    bottom: 267px;
+}
+/* второе полне ввода */
+.pass {
+    position: absolute;
+    left: 180px;
+    top: 300px;
+    bottom: 267px;
+    
+}
+/* кнопка "войти" */
+a.wsbutton {
+    background: purple;
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 0 hsla(0, 0%, 0%, 0.2) inset;
+    color: white;
+    display: table;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 360px;
+    left: 170px;
+    bottom: 227px;
+    width: 270px;
+    height: 3px;
+    line-height: 22px;
+    text-decoration: none;
+    transition: all 0.3s;
+    border-radius: 30px;
+    padding: 10px ;
+    margin: 0 auto;
+}
+.check {
+    position: absolute;
+    color: purple;
+    top: 409px;
+    left: 186px;
+    bottom: 129px;
+}
+.remember {
+    position: absolute;
+    top: 409px;
+    left: 209px;
+    bottom: 129px;
+    color: #A4A6A9;
+}
+a.forget {
+    position: absolute;
+    top: 409px;
+    left: 339px;
+    bottom: 129px;
+    text-decoration: none;
+    color: purple;
+}
+.text {
+    position: absolute;
+    top: 437px;
+    left: 190px;
+    bottom: 100px;
+    color: rgb(100, 102, 104);
+}
+.registr {
+    position: absolute;
+    top: 437px;
+    left: 310px;
+    bottom: 100px;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
